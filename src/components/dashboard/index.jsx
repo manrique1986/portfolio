@@ -12,8 +12,8 @@ import { Link } from "react-router-dom";
 
 const Dashboard = ({ open, setOpen }) => {
   const menus = [
-    { name: "", link: "/home", icon: PiNumberCircleOneLight },
-    { name: "", link: "/profile", icon: PiNumberCircleTwoLight },
+    { name: "", link: "/portada", icon: PiNumberCircleOneLight },
+    { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
     { name: "", link: "/", icon: PiNumberCircleThreeLight},
     { name: "", link: "/money", icon: PiNumberCircleFourLight},
     { name: "", link: "/", icon: PiNumberCircleFiveLight },
@@ -30,12 +30,12 @@ const Dashboard = ({ open, setOpen }) => {
         } `}
       ></div>
       <div
-        className={`absolute min-h-screen   ${
-          open ? "w-[260px] bg-[#2E2E2E]   " : " invisible"
+        className={`absolute min-h-screen    ${
+          open ? "lg:w-[260px] bg-[#2E2E2E]    " : " invisible"
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col gap-1 pl-20  mt-14">
+        <div className="relative flex flex-col gap-1 lg:pl-20  mt-14">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}

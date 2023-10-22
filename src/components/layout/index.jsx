@@ -10,8 +10,8 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     switch (location.pathname) {
-      case "/home":
-        setTitle("Inicio");
+      case "/portada":
+        setTitle("portada");
         break;
       case "/money":
         setTitle("Tu Dinero");
