@@ -35,14 +35,14 @@ const Dashboard = ({ open, setOpen }) => {
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col gap-1 lg:pl-20  mt-14">
+        <div className="relative flex flex-col gap-1 lg:pl-20  mt-12">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
               key={i}
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium pl-4 py-4  rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pl-4 py-4  rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500     ${
