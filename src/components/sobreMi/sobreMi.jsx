@@ -6,12 +6,12 @@ const sobreMi = () => {
     <Layout>
       <div className="flex flex-col">
         <div className=" bg-img-sobremi bg-cover w-screen h-screen  ">
-          <div className="  lg:ml-64   mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
+          <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
             <h1 className="justify-center items-center all:text-[30px]   font-bold text-center text-[#EB3A00]">
               Sobre mi
             </h1>
           </div>
-          <h2 className="flex justify-center text-[#EB3A00] all:text-3xl all:pt-4 lg:text-[52px] ">
+          <h2 className="flex justify-center text-[#EB3A00] all:text-2xl all:mt-16 lg:text-[40px] ">
             Biografia e introduccion
           </h2>
           <div className="all:p-6 all:pl-14">
