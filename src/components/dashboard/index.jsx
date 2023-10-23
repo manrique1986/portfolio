@@ -31,7 +31,7 @@ const Dashboard = ({ open, setOpen }) => {
       ></div>
       <div
         className={`absolute min-h-screen    ${
-          open ? "lg:w-[260px] bg-[#2E2E2E]    " : " invisible"
+          open ? "lg:w-[260px] bg-[#2E2E2E]     " : " invisible"
         } duration-500 text-black-100`}
       >
 
