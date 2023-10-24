@@ -6,13 +6,13 @@ const index = () => {
     <div>
       <Layout>
         <div className="flex flex-col">
-          <div className=" bg-img-educacion bg-cover w-screen h-screen  ">
+          <div className="  bg-cover w-screen h-screen  ">
             <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
               <h1 className="justify-center items-center all:text-[30px]   font-bold text-center text-[#EB3A00]">
                 Educacion
               </h1>
             </div>
-            <section className=" lg:flex all:ml-24 lg:ml-72   ">
+            <section className=" lg:flex all:ml-14 lg:ml-72   ">
               <div>
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16  lg:text-[35px]">
                   Coderhouse
