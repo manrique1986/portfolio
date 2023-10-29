@@ -1,22 +1,23 @@
 import { useEffect, useState } from "react";
 import Dashboard from "../../components/dashboard/index";
 import { useLocation } from "react-router-dom";
+import Navbar from "../navbar/index";
 import { BsTruckFlatbed } from "react-icons/bs";
 const Layout = ({ children }) => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const [title, setTitle] = useState("");
 
   const location = useLocation();
 
   useEffect(() => {
     switch (location.pathname) {
-      case "/portada":
-        setTitle("portada");
+      case "/sobremi":
+        setTitle("Sobre mi");
         break;
-      case "/money":
-        setTitle("Tu Dinero");
+      case "/educacion":
+        setTitle("Educacion");
         break;
-      case "/profile":
+      case "/SobreMi":
         setTitle("Tus Datos");
         break;
       case "/addmoney":
@@ -34,6 +35,7 @@ const Layout = ({ children }) => {
   return (
     <div className="relative w-full h-screen">
       <Dashboard open={open} setOpen={setOpen} />
+      <Navbar menu={() => setOpen(!open)} dato={title} />
       <div className="">{children}</div>
     </div>
   );
