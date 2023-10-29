@@ -14,7 +14,7 @@ const Dashboard = ({ open, setOpen }) => {
   const menus = [
     { name: "", link: "/portada", icon: PiNumberCircleOneLight },
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
-    { name: "", link: "/", icon: PiNumberCircleThreeLight},
+    { name: "", link: "/sobremi", icon: PiNumberCircleThreeLight},
     { name: "", link: "/money", icon: PiNumberCircleFourLight},
     { name: "", link: "/", icon: PiNumberCircleFiveLight },
     { name: "", link: "/", icon: PiNumberCircleSixLight},
