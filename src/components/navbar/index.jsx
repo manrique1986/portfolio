@@ -7,7 +7,7 @@ const Navbar = ({ dato, menu }) => {
   return (
     <div className="bg-[#EB3A00] shadow-cardShadow h-16 flex items-center text-white justify-between pl-6 pr-[26px]">
       <div className="flex items-center gap-6">
-        <AiOutlineMenu onClick={menu} className="text-2xl pointer" />
+      
         <p className="pr-24 font-semibold">{dato}</p>
       </div>
       <div className="flex gap-[26px]">
