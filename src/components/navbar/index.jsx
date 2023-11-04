@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 import { AiOutlineMenu, AiOutlineQuestionCircle } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = ({ dato, menu }) => {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div className="bg-[#EB3A00] shadow-cardShadow h-16 flex items-center text-white justify-between pl-6 pr-[26px]">
       <div className="flex items-center gap-6">
-      
         <p className="pr-24 font-semibold">{dato}</p>
       </div>
       <div className="flex gap-[26px]">

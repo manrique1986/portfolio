@@ -59,7 +59,7 @@ const Dashboard = ({  }) => {
       ></div>
       <div
         className={`absolute min-h-screen  ${
-          open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E]     " : " invisible"
+          open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
       >
              <div className=" h-[64px] bg-[#EB3A00] flex justify-between  items-center pr-6">
