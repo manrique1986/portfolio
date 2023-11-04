@@ -1,4 +1,5 @@
-import React from "react";
+
+import React, { useState } from 'react';
 // import { HiMenuAlt3 } from "react-icons/hi";
 
 import { PiNumberCircleTwoLight,PiNumberCircleThreeLight,PiNumberCircleFourLight,PiNumberCircleFiveLight,PiNumberCircleSixLight} from "react-icons/pi";
@@ -10,7 +11,13 @@ import { PiNumberCircleOneLight} from "react-icons/pi";
 import { Link } from "react-router-dom";
 
 
-const Dashboard = ({ open, setOpen }) => {
+const Dashboard = ({  }) => {
+
+  const [open, setOpen] = useState(true);
+  const toggleSidebar = () => {
+    setOpen(!open);
+  };
+
   const menus = [
     { name: "", link: "/portada", icon: PiNumberCircleOneLight },
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
@@ -20,21 +27,42 @@ const Dashboard = ({ open, setOpen }) => {
     { name: "", link: "/", icon: PiNumberCircleSixLight},
    
   ];
+
+
+
  
   return (
     <section className="relative flex border- ">
+       <button
+        className="fixed lg:hidden z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
+        onClick={toggleSidebar}
+      >
+        <span class="text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="w-6 m-auto"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3.646 9.146a.5.5 0 0 1 .708 0L8 12.793l3.646-3.647a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.708zm0-2.292a.5.5 0 0 0 .708 0L8 3.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708z"
+            />
+          </svg>
+        </span>
+      </button>
       <div
         onClick={() => setOpen(false)}
         className={`md:hidden fixed inset-0 max-h-screen   ${
           open ? "block" : "hidden"
-        } `}
+        }  `}
       ></div>
       <div
-        className={`absolute min-h-screen    ${
+        className={`absolute min-h-screen  ${
           open ? "lg:w-[260px] bg-[#2E2E2E]     " : " invisible"
         } duration-500 text-black-100`}
       >
-             <div className="w-[260px] h-[64px] bg-[#EB3A00] flex justify-between items-center pr-6">
+             <div className=" h-[64px] bg-[#EB3A00] flex justify-between  items-center pr-6">
           <div className="flex items-center pl-3 gap-[10px]">
             <svg
               width="35"
