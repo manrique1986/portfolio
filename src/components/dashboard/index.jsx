@@ -63,17 +63,17 @@ const Dashboard = ({  }) => {
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col gap-1 lg:pl-20  mt-12">
+        <div className="relative flex flex-col gap-1 lg:pl-20   mt-12">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
               key={i}
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4  rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4 transition duration-150 ease-in-out  rounded-md text-[#FFFEFE]`}
             >
               <div
-                className={`whitespace-pre duration-500     ${
+                className={`whitespace-pre duration-500      ${
                   !open && "opacity-0 translate-x-28 overflow-hidden  "
                 } ` }
               >
@@ -90,7 +90,7 @@ const Dashboard = ({  }) => {
               </h2>
               <h2
                 className={`${
-                  open && "hidden"
+                  open && "hidden "
                 } absolute left-48 bg-[#FFFEFE] font-semibold whitespace-pre  rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2 group-hover:py-1 group-hover:left-14 group-hover:duration-300 group-hover:w-fit  `}
               >
                 {menu?.name}

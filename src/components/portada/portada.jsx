@@ -30,7 +30,7 @@ const portada = () => {
               Programador frontend
             </h1>
           </div>
-          <div className="flex justify-center all:mt-14">
+          <div className="flex justify-center all:mt-14 animate-bounce transition ">
             <Link to="/sobremi">
               <button className="rounded-full bg-[#F7B200] text-[#EC6625] object-center font-bold  lg:float-right lg:mt-64 lg:mr-64">
                 Ingresar
