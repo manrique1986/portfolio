@@ -62,10 +62,6 @@ const Dashboard = ({  }) => {
           open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
       >
-             <div className=" h-[64px] bg-[#EB3A00] flex justify-between  items-center pr-6">
-        
-       
-        </div>
 
         <div className="relative flex flex-col gap-1 lg:pl-20  mt-12">
           {menus?.map((menu, i) => (
@@ -74,14 +70,14 @@ const Dashboard = ({  }) => {
               key={i}
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pl-4 py-4  rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4  rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500     ${
-                  !open && "opacity-0 translate-x-28 overflow-hidden "
-                }`}
+                  !open && "opacity-0 translate-x-28 overflow-hidden  "
+                } ` }
               >
-                {React.createElement(menu?.icon, { size: "40" })}
+                {React.createElement(menu?.icon, { size: "60" })}
               </div>
 
               <h2

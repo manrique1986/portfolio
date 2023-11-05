@@ -12,7 +12,7 @@ const index = () => {
                 Educacion
               </h1>
             </div>
-            <section className=" lg:flex all:ml-14 lg:ml-72   ">
+            <section className=" lg:flex all:ml-14 lg:ml-96  ">
               <div>
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16  lg:text-[35px]">
                   Coderhouse

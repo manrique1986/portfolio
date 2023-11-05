@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
     <div className="relative w-full h-screen">
       <Dashboard open={open} setOpen={setOpen} />
       <div className="">
-        <Navbar menu={() => setOpen(!open)} dato={title} />
+        {/* <Navbar menu={() => setOpen(!open)} dato={title} /> */}
       </div>
       <div className="">{children}</div>
     </div>
