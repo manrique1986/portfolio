@@ -12,38 +12,41 @@ const index = () => {
                 Educacion
               </h1>
             </div>
-            <section className=" lg:flex all:ml-14 lg:ml-96  ">
+            <section className=" all:ml-14 lg:ml-96  ">
               <div>
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16  lg:text-[35px]">
-                  Coderhouse
+                  Coderhouse Junio de 2021 - Marzo de 2022
                 </h1>
-                <ul className="lg:pt-6 ">
-                  <li>Carrera de Frontend <span className="text-orange-700">Junio de 2021 a Noviembre 2021</span></li>
+                <h3 className="font-bold pt-4 ">Realice la carrera de desarrolador frontend, dentro de ella incluye los cursos de desarrollo web, Javascript y React.
+               
+                </h3>
+                <h3 className="font-bold ">     En el mes de Marzo del 2022 realice el curso de Vue</h3>
+                {/* <ul className="lg:pt-6 ">
+                  <li>Carrera Desarrollo Frontend React <span className="text-orange-700">Junio de 2021 a Noviembre 2021</span></li>
                   <li className="ml-4">Desarrollo web</li>
                   <li className="ml-4">Javascript</li>
                   <li className="ml-4">React</li>
                   <li>Vue <span className="text-orange-700">Marzo de 2022</span></li>
-                </ul>
+                </ul> */}
               </div>
-              <div className="lg:px-20">
+              <div className="">
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16  lg:text-[35px]">
-                 Educacion it
+                 Educacion it Febreso 2023 - Mayo 2023
                 </h1>
-                <ul className="lg:pt-6">
+                <h3 className="font-bold pt-4 "> Realice el curso de React, luego inicie con Node Js</h3>
+                {/* <ul className="lg:pt-6">
                   <li>React <span className="text-orange-700">Febrero de 2023</span></li>
                 
                   <li>Node js <span className="text-orange-700">Mayo 2023</span></li>
-                </ul>
+                </ul> */}
               </div>
-              <div className="lg:px-20">
+              <div className="">
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16 lg:text-[35px]">
-                 Educacion it
+                Udemy agosto 2023 - actualmente
                 </h1>
-                <ul className="lg:pt-6">
-                  <li>React <span className="text-orange-700">Febrero de 2023</span></li>
-                
-                  <li>Node js <span className="text-orange-700">Mayo 2023</span></li>
-                </ul>
+               <h3 className="font-bold pt-4">
+                Me encuentro realizando curso de Node JS y realizando estudios de buenas practicas en Javascript
+               </h3>
               </div>
             </section>
           </div>
