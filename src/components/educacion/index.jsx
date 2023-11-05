@@ -1,10 +1,10 @@
 import React from "react";
-import Layout from "../layout";
+
 
 const index = () => {
   return (
     <div>
-      <Layout>
+   
         <div className="flex flex-col">
           <div className=" bg-img-educacion bg-cover w-screen h-screen  ">
             <div className="  lg:ml-64 all:mt-2    lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
@@ -48,7 +48,7 @@ const index = () => {
             </section>
           </div>
         </div>
-      </Layout>
+  
     </div>
   );
 };
