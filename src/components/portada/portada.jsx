@@ -8,7 +8,7 @@ const portada = () => {
       <div>
         <img
           className="float-right w-50"
-          src="/src/assets/imagenYo.png"
+          src="https://res.cloudinary.com/dytpump6i/image/upload/v1699213630/imagenYo_usg67s.png"
           alt="imgPortada"
         />
         <div className="grid lg:grid-cols-2 all:grid-cols-1 mx-28">
