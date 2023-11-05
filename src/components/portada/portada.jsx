@@ -1,5 +1,6 @@
 import React from "react";
 import imgPortada from "../../assets/Diseño sin título (3).png";
+import { Link } from "react-router-dom";
 
 const portada = () => {
   return (
@@ -20,12 +21,13 @@ const portada = () => {
             </h1>
           </div>
           <div className="all:">
-          <button className="rounded-full bg-[#EC6625]  lg:float-right lg:mt-64 lg:mr-64">
-            Ingresar
-          </button>
+            <Link to="/sobremi">
+              <button className="rounded-full bg-[#EC6625]  lg:float-right lg:mt-64 lg:mr-64">
+                Ingresar
+              </button>
+            </Link>
+          </div>
         </div>
-        </div>
-     
       </div>
     </div>
   );
