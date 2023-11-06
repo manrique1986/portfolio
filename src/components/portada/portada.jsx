@@ -11,7 +11,7 @@ import {
 
 const portada = () => {
   return (
-    <div className="grid all:grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]   w-screen h-screen ">
+    <div className="grid all:grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
       
       <div>
         <div    className="float-right ">
