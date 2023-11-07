@@ -16,7 +16,7 @@ const sobreMi = () => {
           </h2>
           <div className="all:p-6 all:pl-14">
             <p className="lg:px-72 text-[20px]">
-              Hola! Soy Leandro, desarrolador fullstack con inclinacion al
+              Hola! Soy Leandro, desarrolador fullstack con orientacion al
               frontend. Actualmente me encuentro realizanzo proyectos en
               distintas plataforma que me ayuden a mejorar mis practicas con
               tecnologias como del lado del Front con React y Vue, para los

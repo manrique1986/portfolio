@@ -27,7 +27,7 @@ const portada = () => {
               Leandro Martini
             </p>
             <h1 className="all:text-center lg:mt-8 lg:ml-10 all:text-[30px] text-[55px]">
-              Programador frontend
+              Programador Full-Stack
             </h1>
           </div>
           <div className="flex justify-center all:mt-14 animate-bounce transition ">
