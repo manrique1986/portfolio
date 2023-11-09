@@ -22,7 +22,7 @@ const Dashboard = ({  }) => {
     { name: "", link: "/portada", icon: PiNumberCircleOneLight },
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
     { name: "", link: "/sobremi", icon: PiNumberCircleThreeLight},
-    { name: "", link: "/money", icon: PiNumberCircleFourLight},
+    { name: "", link: "/skills", icon: PiNumberCircleFourLight},
     { name: "", link: "/", icon: PiNumberCircleFiveLight },
     { name: "", link: "/", icon: PiNumberCircleSixLight},
    
@@ -58,6 +58,7 @@ const Dashboard = ({  }) => {
         }  `}
       ></div>
       <div
+      
         className={`absolute min-h-screen  ${
           open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
@@ -68,6 +69,7 @@ const Dashboard = ({  }) => {
             <Link
               to={menu?.link}
               key={i}
+              
               className={`  ${
                 menu?.margin && "  "
               }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4 transition   rounded-md text-[#FFFEFE]`}
