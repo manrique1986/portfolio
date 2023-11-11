@@ -2,24 +2,128 @@ import React from "react";
 import Layout from "../layout";
 
 const skills = () => {
-  // bg-cover bg w-screen h-screen all:bg-cover bg-top 
+  // bg-cover bg w-screen h-screen all:bg-cover bg-top
   return (
     <Layout>
       <div className="flex ">
         <div className="bg-img-skills  bg-cover w-screen h-screen bg-top">
           <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
             <h1 className="justify-center items-center all:text-[30px]    font-bold text-center text-[#EB3A00]">
-             Skills
+              Skills
             </h1>
           </div>
-          <div className="all:ml-20 mt-14 grid grid-cols-2 justify-items-center  gap-4 ">
+          <div class="container flex flex-col mx-auto w-auto">
+            <div class="w-full draggable">
+              <div class="container flex flex-col items-center gap-16 mt-14">
+                <div class="grid w-7/12 grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                  <div class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className=" all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674116/logohtml_o0jgqg.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                      Html
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20 "
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674177/logoCss_vum7yd.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                      Css
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674205/logoJS_vihzto.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                     Javascript
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                    <span>
+                    <img
+                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674238/react_ewim0s.svg"
+                alt="html"
+              />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                     React
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                    <span>
+                    <img
+                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675645/vue-9_a1hd4x.svg"
+                alt="html"
+              />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    Vue
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                    <span>
+                    <img
+                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674680/nodejs-logo-svgrepo-com_axruvh.svg"
+                alt="html"
+              />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                     Node Js
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                    <span>
+                    <img
+                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675474/bootstrap-4_gx7xnr.svg"
+                alt="html"
+              />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    Bootrstrap
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                    <img
+                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675579/tailwindcss_b5umkv.svg"
+                alt="html"
+              />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    Tailwind
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="all:ml-20 mt-14 grid grid-cols-3  justify-items-center   ">
             <div className="flex">
               <img
                 className=" all:h-8 all:w-8 lg:h-14 lg:w-14"
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674116/logohtml_o0jgqg.svg"
                 alt="html"
               />
-              <h4>HTML</h4>
+           
             </div>
             <div className="flex mt-4">
               <img
@@ -27,7 +131,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674177/logoCss_vum7yd.svg"
                 alt="html"
               />
-              <h4>Css</h4>
+           
             </div>
             <div className="flex mt-4">
               <img
@@ -35,7 +139,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674205/logoJS_vihzto.svg"
                 alt="html"
               />
-              <h4>Javascript</h4>
+       
             </div>
             <div className="flex mt-4">
               <img
@@ -43,7 +147,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674238/react_ewim0s.svg"
                 alt="html"
               />
-              <h4>React</h4>
+         
             </div>
             <div className="flex mt-4">
               <img
@@ -51,7 +155,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675645/vue-9_a1hd4x.svg"
                 alt="html"
               />
-              <h4>Vue</h4>
+        
             </div>
             <div className="flex mt-4">
               <img
@@ -59,7 +163,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674680/nodejs-logo-svgrepo-com_axruvh.svg"
                 alt="html"
               />
-              <h4>Node JS</h4>
+      
             </div>
             <div className="flex mt-4">
               <img
@@ -67,7 +171,7 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675474/bootstrap-4_gx7xnr.svg"
                 alt="html"
               />
-              <h4>Bootstrap</h4>
+      
             </div>
             <div className="flex mt-4">
               <img
@@ -75,9 +179,9 @@ const skills = () => {
                 src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675579/tailwindcss_b5umkv.svg"
                 alt="html"
               />
-              <h4>Tailwind</h4>
+         
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>
