@@ -1,6 +1,9 @@
 import React from "react";
 import Layout from "../layout";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+AOS.init();
 const skills = () => {
   // bg-cover bg w-screen h-screen all:bg-cover bg-top
   return (
@@ -17,7 +20,7 @@ const skills = () => {
             <div class="w-full draggable">
               <div class="container flex flex-col items-center gap-16 mt-14">
                 <div class="grid w-7/12 grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
-                  <div class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-right" class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className=" all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -29,7 +32,7 @@ const skills = () => {
                       Html
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20 "
@@ -41,7 +44,7 @@ const skills = () => {
                       Css
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                  <div data-aos="fade-up-right" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -53,7 +56,7 @@ const skills = () => {
                       Javascript
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                  <div data-aos="fade-up-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -65,7 +68,7 @@ const skills = () => {
                       React
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                  <div data-aos="zoom-in" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -101,7 +104,7 @@ const skills = () => {
                       Bootrstrap
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-in-up" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -125,7 +128,7 @@ const skills = () => {
                       Mongo DB
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-up-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -137,7 +140,7 @@ const skills = () => {
                      Git
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-down-right" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -149,7 +152,7 @@ const skills = () => {
                       Github
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-in-down" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"

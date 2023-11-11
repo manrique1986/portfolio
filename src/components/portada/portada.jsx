@@ -8,13 +8,18 @@ import {
   FaYoutube,
   FaLocationArrow,
 } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
 
 const portada = () => {
   return (
     <div className="grid all:grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
       
       <div>
-        <div    className="float-right ">
+        <div data-aos="fade-up"
+     data-aos-duration="3000"  className="float-right ">
         <img
        
           src="https://res.cloudinary.com/dytpump6i/image/upload/v1699213630/imagenYo_usg67s.png"
@@ -22,7 +27,9 @@ const portada = () => {
         />
         </div>
         <div className=" grid-cols-1">
-          <div className=" lg:mt-36 m-auto ">
+          <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"className=" lg:mt-36 m-auto ">
             <p className="text-[#EC6625] all:text-center   lg:ml-20 font-bold text-[50px] lg:text-[80px]">
               Leandro Martini
             </p>
