@@ -15,7 +15,7 @@ const skills = () => {
           <div class="container flex flex-col mx-auto w-auto">
             <div class="w-full draggable">
               <div class="container flex flex-col items-center gap-16 mt-14">
-                <div class="grid w-7/12 grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                <div class="grid w-7/12 grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
                   <div class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
@@ -49,67 +49,115 @@ const skills = () => {
                       />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                     Javascript
+                      Javascript
                     </p>
                   </div>
                   <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
-                    <img
-                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674238/react_ewim0s.svg"
-                alt="html"
-              />
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674238/react_ewim0s.svg"
+                        alt="html"
+                      />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                     React
+                      React
                     </p>
                   </div>
                   <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
-                    <img
-                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675645/vue-9_a1hd4x.svg"
-                alt="html"
-              />
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675645/vue-9_a1hd4x.svg"
+                        alt="html"
+                      />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                    Vue
+                      Vue
                     </p>
                   </div>
                   <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
-                    <img
-                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674680/nodejs-logo-svgrepo-com_axruvh.svg"
-                alt="html"
-              />
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674680/nodejs-logo-svgrepo-com_axruvh.svg"
+                        alt="html"
+                      />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                     Node Js
+                      Node Js
                     </p>
                   </div>
                   <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
-                    <img
-                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675474/bootstrap-4_gx7xnr.svg"
-                alt="html"
-              />
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675474/bootstrap-4_gx7xnr.svg"
+                        alt="html"
+                      />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                    Bootrstrap
+                      Bootrstrap
                     </p>
                   </div>
                   <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
-                    <img
-                className="all:h-8 all:w-8 lg:h-20 lg:w-20"
-                src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675579/tailwindcss_b5umkv.svg"
-                alt="html"
-              />
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699675579/tailwindcss_b5umkv.svg"
+                        alt="html"
+                      />
                     </span>
                     <p class="text-2xl font-extrabold text-dark-grey-900">
-                    Tailwind
+                      Tailwind
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699722379/mongodb-icon-1_g3b76i.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                      Mongo DB
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699722742/pngegg_gbpixu.png"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                     Git
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699722507/github-icon_w5e3jb.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                      Github
+                    </p>
+                  </div>
+                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                    <span>
+                      <img
+                        className="all:h-8 all:w-8 lg:h-20 lg:w-20"
+                        src="https://res.cloudinary.com/dytpump6i/image/upload/v1699722897/postman_bnp3s0.svg"
+                        alt="html"
+                      />
+                    </span>
+                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                      Postman
                     </p>
                   </div>
                 </div>
