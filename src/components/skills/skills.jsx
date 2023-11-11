@@ -6,8 +6,9 @@ const skills = () => {
   return (
     <Layout>
       <div className="flex ">
-        <div className="bg-img-skills  bg-cover w-screen h-screen bg-top">
+        <div className="bg-img-skills bg-scroll   bg-cover all:h-full lg:h-screen w-screen bg-top">
           <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
+            
             <h1 className="justify-center items-center all:text-[30px]    font-bold text-center text-[#EB3A00]">
               Skills
             </h1>
