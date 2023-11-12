@@ -5,7 +5,7 @@ const proyectos = () => {
   return (
     <Layout>
       <div>
-        <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
+        <div className=" flex justify-center  lg:ml-64 all:mt-2    lg:mt-14 bg-[#F7B200]   lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl all:mx-11 ">
           <h1 className="justify-center items-center all:text-[30px]    font-bold text-center text-[#EB3A00]">
             Proyectos
           </h1>

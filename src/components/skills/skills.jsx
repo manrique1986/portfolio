@@ -11,14 +11,14 @@ const skills = () => {
     <Layout>
       <div className="flex  ">
         <div className="bg-img-skills bg-scroll   bg-cover all:h-full lg:h-screen w-screen bg-top">
-          <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
+          <div className="  flex justify-center  lg:ml-64 all:mt-2    lg:mt-14 bg-[#F7B200]   lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl all:mx-11">
             
             <h1 className="justify-center items-center all:text-[30px]    font-bold text-center text-[#EB3A00]">
               Skills
             </h1>
           </div>
           <div class="container flex flex-col mx-auto w-auto">
-            <div class="w-full draggable">
+            <div class="w-full draggable z-20">
               <div class="container flex flex-col items-center gap-16 mt-14">
                 <div class="grid  grid-cols-2 gap-5 md:grid-cols-2 lg:grid-cols-4">
                   <div data-aos="fade-right" class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">

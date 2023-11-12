@@ -32,9 +32,9 @@ const Dashboard = ({  }) => {
 
  
   return (
-    <section className="relative flex border- ">
+    <section className=" flex  ">
        <button
-        className="fixed opacity-70 lg:hidden z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
+        className="fixed  z-40 opacity-70 lg:hidden z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
         onClick={toggleSidebar}
       >
         <span class="text-white">
@@ -53,13 +53,13 @@ const Dashboard = ({  }) => {
       </button>
       <div
         onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50  ${
+        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50 z-40 ${
           open ? "block" : "hidden"
-        }  `}
+        } `}
       ></div>
       <div
       
-        className={` min-h-screen fixed
+        className={` min-h-screen fixed z-40
         bg-scroll  ${
           open ? "lg:w-[260px] all:w-36 fixed bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
