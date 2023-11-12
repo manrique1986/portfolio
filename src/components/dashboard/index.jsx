@@ -23,7 +23,7 @@ const Dashboard = ({  }) => {
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
     { name: "", link: "/sobremi", icon: PiNumberCircleThreeLight},
     { name: "", link: "/skills", icon: PiNumberCircleFourLight},
-    { name: "", link: "/", icon: PiNumberCircleFiveLight },
+    { name: "", link: "/proyectos", icon: PiNumberCircleFiveLight },
     { name: "", link: "/", icon: PiNumberCircleSixLight},
    
   ];
