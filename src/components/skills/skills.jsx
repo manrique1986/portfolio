@@ -80,7 +80,10 @@ const skills = () => {
                       Vue
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                  <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -92,7 +95,9 @@ const skills = () => {
                       Node Js
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
+                  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600   rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -104,7 +109,9 @@ const skills = () => {
                       Bootrstrap
                     </p>
                   </div>
-                  <div data-aos="zoom-in-up" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -116,7 +123,7 @@ const skills = () => {
                       Tailwind
                     </p>
                   </div>
-                  <div class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-in-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -128,7 +135,7 @@ const skills = () => {
                       Mongo DB
                     </p>
                   </div>
-                  <div data-aos="fade-up-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-out" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -140,7 +147,7 @@ const skills = () => {
                      Git
                     </p>
                   </div>
-                  <div data-aos="fade-down-right" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-out-up" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"
@@ -152,7 +159,7 @@ const skills = () => {
                       Github
                     </p>
                   </div>
-                  <div data-aos="zoom-in-down" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="zoom-out-down" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20"

@@ -53,14 +53,15 @@ const Dashboard = ({  }) => {
       </button>
       <div
         onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50   ${
+        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50    ${
           open ? "block" : "hidden"
         }  `}
       ></div>
       <div
       
-        className={`absolute min-h-screen  ${
-          open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E] opacity-90    " : " invisible"
+        className={` min-h-screen fixed
+        bg-scroll  ${
+          open ? "lg:w-[260px] all:w-36 fixed bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
       >
 
@@ -72,7 +73,7 @@ const Dashboard = ({  }) => {
               
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4 transition   rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-8 transition   rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500      ${
