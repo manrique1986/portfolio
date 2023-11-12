@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layout";
 import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 AOS.init();
 const skills = () => {
@@ -9,7 +9,7 @@ const skills = () => {
   return (
     
     <Layout>
-      <div className="flex ">
+      <div className="flex  ">
         <div className="bg-img-skills bg-scroll   bg-cover all:h-full lg:h-screen w-screen bg-top">
           <div className="  lg:ml-64 all:mt-2   lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
             
@@ -23,7 +23,7 @@ const skills = () => {
                 <div class="grid  grid-cols-2 gap-5 md:grid-cols-2 lg:grid-cols-4">
                   <div data-aos="fade-right" class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
-                      <img
+                      <img 
                         className=" all:h-8 all:w-8 lg:h-20 lg:w-20"
                         src="https://res.cloudinary.com/dytpump6i/image/upload/v1699674116/logohtml_o0jgqg.svg"
                         alt="html"

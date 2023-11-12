@@ -19,14 +19,14 @@ const proyectos = () => {
               <div>
                 <img
                   class="object-center object-cover h-auto w-full"
-                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  src="https://res.cloudinary.com/dytpump6i/image/upload/v1699811576/lifebook_zlcypn.png"
                   alt="photo"
                 />
               </div>
               <div class="text-center py-8 sm:py-6">
-                <p class="text-xl text-gray-700 font-bold mb-2">Dany Bailey</p>
+                <p class="text-xl text-gray-700 font-bold mb-2">LifeBook</p>
                 <p class="text-base text-gray-400 font-normal">
-                  Software Engineer
+                  Libro diario digital
                 </p>
               </div>
             </div>
@@ -34,14 +34,14 @@ const proyectos = () => {
               <div>
                 <img
                   class="object-center object-cover h-auto w-full"
-                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  src="https://res.cloudinary.com/dytpump6i/image/upload/v1699811618/proyecto_jardin_arfvii.png"
                   alt="photo"
                 />
               </div>
               <div class="text-center py-8 sm:py-6">
-                <p class="text-xl text-gray-700 font-bold mb-2">Lucy Carter</p>
+                <p class="text-xl text-gray-700 font-bold mb-2">Burbujas de algodon</p>
                 <p class="text-base text-gray-400 font-normal">
-                  Graphic Designer
+                  Proyecto jardin 
                 </p>
               </div>
             </div>
@@ -49,27 +49,27 @@ const proyectos = () => {
               <div>
                 <img
                   class="object-center object-cover h-auto w-full"
-                  src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80"
+                  src="https://res.cloudinary.com/dytpump6i/image/upload/v1699811732/walletpay_flbxyn.png"
                   alt="photo"
                 />
               </div>
               <div class="text-center py-8 sm:py-6">
-                <p class="text-xl text-gray-700 font-bold mb-2">Jade Bradley</p>
-                <p class="text-base text-gray-400 font-normal">Dev Ops</p>
+                <p class="text-xl text-gray-700 font-bold mb-2">Walletpay</p>
+                <p class="text-base text-gray-400 font-normal">Villetera virtual</p>
               </div>
             </div>
             <div class="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
               <div>
                 <img
                   class="object-center object-cover h-auto w-full"
-                  src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+                  src="https://res.cloudinary.com/dytpump6i/image/upload/v1699811858/productos_1_nfgv04.png"
                   alt="photo"
                 />
               </div>
               <div class="text-center py-8 sm:py-6">
-                <p class="text-xl text-gray-700 font-bold mb-2">Dany Bailey</p>
+                <p class="text-xl text-gray-700 font-bold mb-2">Mundo mascota</p>
                 <p class="text-base text-gray-400 font-normal">
-                  Software Engineer
+                  Ecommerce para mascotas
                 </p>
               </div>
             </div>

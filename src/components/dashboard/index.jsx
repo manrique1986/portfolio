@@ -53,7 +53,7 @@ const Dashboard = ({  }) => {
       </button>
       <div
         onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen    ${
+        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50  ${
           open ? "block" : "hidden"
         }  `}
       ></div>
