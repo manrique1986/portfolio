@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = ({  }) => {
 
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const toggleSidebar = () => {
     setOpen(!open);
   };
@@ -53,7 +53,7 @@ const Dashboard = ({  }) => {
       </button>
       <div
         onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50    ${
+        className={`md:hidden fixed inset-0 max-h-screen    ${
           open ? "block" : "hidden"
         }  `}
       ></div>
@@ -73,7 +73,7 @@ const Dashboard = ({  }) => {
               
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-8 transition   rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-8 t   rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500      ${

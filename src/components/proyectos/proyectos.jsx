@@ -14,7 +14,8 @@ const proyectos = () => {
         <section className="lg:ml-80 max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
        
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="w-full bg-white rounded-lg sahdow-lg overflow-hidden border-2 flex flex-col justify-center items-center">
+            <div class="w-full bg-white rounded-lg sahdow-lg overflow-hidden border-2npm run dev
+             flex flex-col justify-center items-center">
               <div>
                 <img
                   class="object-center object-cover h-auto w-full"

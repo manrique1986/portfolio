@@ -7,6 +7,7 @@ AOS.init();
 const skills = () => {
   // bg-cover bg w-screen h-screen all:bg-cover bg-top
   return (
+    
     <Layout>
       <div className="flex ">
         <div className="bg-img-skills bg-scroll   bg-cover all:h-full lg:h-screen w-screen bg-top">
@@ -19,7 +20,7 @@ const skills = () => {
           <div class="container flex flex-col mx-auto w-auto">
             <div class="w-full draggable">
               <div class="container flex flex-col items-center gap-16 mt-14">
-                <div class="grid w-7/12 grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+                <div class="grid  grid-cols-2 gap-5 md:grid-cols-2 lg:grid-cols-4">
                   <div data-aos="fade-right" class="flex flex-col items-center gap-3 px-4 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
                     <span>
                       <img
@@ -32,7 +33,7 @@ const skills = () => {
                       Html
                     </p>
                   </div>
-                  <div data-aos="fade-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main">
+                  <div data-aos="fade-left" class="flex flex-col items-center gap-3 px-8 py-10 border-2 border-orange-600  rounded-3xl shadow-main" >
                     <span>
                       <img
                         className="all:h-8 all:w-8 lg:h-20 lg:w-20 "
