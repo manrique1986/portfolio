@@ -21,7 +21,7 @@ const sobreMi = () => {
                 frontend. Actualmente me encuentro realizanzo proyectos en
                 distintas plataforma que me ayuden a mejorar mis practicas con
                 tecnologias como del lado del Front con React y Vue, para los
-                estilo utilizo Boostrap o Taiwilnd y por el lado del Backend,
+                estilos utilizo Boostrap o Taiwilnd y por el lado del Backend,
                 Node Js. estoy En continuo aprendizaje desde que descubrí el
                 mundo IT. Me considero una persona responsable y dinamica, soy
                 una persona resolutiva con capacidad de gestión y toma de
@@ -29,7 +29,7 @@ const sobreMi = () => {
                 siempre disponible a ayudar y aprender en todo momento.
               </p>
               <p className="lg:px-72 text-[18px]  ">
-                A la espera de oportunidades y poder desplegar mis habilidades
+                A la espera de oportunidades y poder colaborar con mis habilidades
                 para el desarrollo de software.
               </p>
             </div>
