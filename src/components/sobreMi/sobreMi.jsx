@@ -17,20 +17,23 @@ const sobreMi = () => {
             </h2>
             <div className="all:p-6 all:pl-14">
               <p className="lg:px-72 text-[18px]">
-                Hola! Soy Leandro, desarrolador fullstack con orientacion al
-                frontend. Actualmente me encuentro realizanzo proyectos en
-                distintas plataforma que me ayuden a mejorar mis practicas con
-                tecnologias como del lado del Front con React y Vue, para los
-                estilos utilizo Boostrap o Taiwilnd y por el lado del Backend,
-                Node Js. estoy En continuo aprendizaje desde que descubrí el
-                mundo IT. Me considero una persona responsable y dinamica, soy
-                una persona resolutiva con capacidad de gestión y toma de
-                decisiones, me considero con mucha energia y muy buena onda,
-                siempre disponible a ayudar y aprender en todo momento.
+                "¡Hola! Soy Leandro, un apasionado desarrollador fullstack con
+                enfoque en el frontend. Actualmente, trabajo en diversos
+                proyectos en plataformas variadas para perfeccionar mis
+                habilidades en tecnologías como React y Vue en el frontend, y
+                Node.js en el backend. Utilizo herramientas como Bootstrap y
+                Tailwind para estilos impactantes.
               </p>
-              <p className="lg:px-72 text-[18px]  ">
-                A la espera de oportunidades y poder colaborar con mis habilidades
-                para el desarrollo de software.
+              <p className="lg:px-72 text-[18px]">
+                {" "}
+                Desde mi descubrimiento en el mundo IT, mantengo un constante
+                proceso de aprendizaje. Me defino como una persona responsable y
+                dinámica, resolutiva en la gestión y toma de decisiones. Mi
+                entusiasmo y energía positiva me caracterizan, siempre dispuesto
+                a ayudar y aprender en todo momento. Busco nuevas oportunidades
+                para aplicar mi experiencia y contribuir al desarrollo de
+                proyectos innovadores. ¡Conversemos sobre cómo puedo aportar a
+                tu equipo o proyecto!"
               </p>
             </div>
           </div>

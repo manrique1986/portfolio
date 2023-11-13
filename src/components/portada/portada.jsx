@@ -11,25 +11,31 @@ import {
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+import { AiOutlineArrowDown } from "react-icons/ai";
+
 AOS.init();
 
 const portada = () => {
   return (
-    <div className="grid all:grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
-      
+    <div className="grid grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
       <div>
-        <div data-aos="fade-up"
-     data-aos-duration="3000"  className="float-right ">
-        <img
-       
-          src="https://res.cloudinary.com/dytpump6i/image/upload/v1699213630/imagenYo_usg67s.png"
-          alt="imgPortada"
-        />
+        <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          className="float-right "
+        >
+          <img
+            src="https://res.cloudinary.com/dytpump6i/image/upload/v1699213630/imagenYo_usg67s.png"
+            alt="imgPortada"
+          />
         </div>
-        <div className=" grid-cols-1">
-          <div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500"className=" lg:mt-36 m-auto ">
+        <div className=" ">
+          <div
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className=" lg:mt-36 m-auto "
+          >
             <p className="text-[#EC6625] all:text-center   lg:ml-20 font-bold text-[50px] lg:text-[80px]">
               Leandro Martini
             </p>
@@ -37,31 +43,35 @@ const portada = () => {
               Programador Full-Stack
             </h1>
           </div>
-          <div className="flex justify-center all:mt-14 animate-bounce transition ">
+          {/* animate-bounce transition  */}
+
+          <div className=" g all:mt-14 ">
+            <AiOutlineArrowDown className=" animate-bounce w-6 h-6 lg:ml-64 " />
+
             <Link to="/sobremi">
-              <button className="rounded-full bg-[#F7B200] text-[#EC6625] object-center font-bold  lg:float-right lg:mt-64 lg:mr-64">
+              <button className=" rounded-full bg-[#F7B200] text-[#EC6625]  font-bold  lg:float-right  lg:mt-64 lg:mr-96">
                 Ingresar
               </button>
             </Link>
           </div>
-          <div className=" all:mt-24 text-xl text-white mb-2 text-center ">
-              <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600  mx-1 inline-block pt-2 p-2 ">
-                <FaFacebook />{" "}
-              </li>
-              <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
-                {" "}
-                <FaInstagram />
-              </li>
-              <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
-                <FaTwitter />
-              </li>
-              <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
-                <FaYoutube />
-              </li>
-            </div>
+
+          <div className=" all:mt-24 text-xl text-white mb-2 lg:float-right ">
+            <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600  mx-1 inline-block pt-2 p-2 ">
+              <FaFacebook />{" "}
+            </li>
+            <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+              {" "}
+              <FaInstagram />
+            </li>
+            <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+              <FaTwitter />
+            </li>
+            <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+              <FaYoutube />
+            </li>
+          </div>
         </div>
       </div>
-      
     </div>
   );
 };
