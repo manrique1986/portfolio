@@ -17,7 +17,7 @@ AOS.init();
 
 const portada = () => {
   return (
-    <div className="grid grid-cols-1 bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
+    <div className="flex flex-col bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
       <div>
         <div
           data-aos="fade-up"
@@ -45,8 +45,10 @@ const portada = () => {
           </div>
           {/* animate-bounce transition  */}
 
-          <div className=" g all:mt-14 ">
-            <AiOutlineArrowDown className=" animate-bounce w-6 h-6 lg:ml-64 " />
+          <div className=" all:text-center  all:mt-14  ">
+            <div className="flex justify-center ">
+              <AiOutlineArrowDown className=" opacity-70 animate-bounce w-6 h-6 lg:ml-64 " />
+            </div>
 
             <Link to="/sobremi">
               <button className=" rounded-full bg-[#F7B200] text-[#EC6625]  font-bold  lg:float-right  lg:mt-64 lg:mr-96">
@@ -55,7 +57,7 @@ const portada = () => {
             </Link>
           </div>
 
-          <div className=" all:mt-24 text-xl text-white mb-2 lg:float-right ">
+          <div className="all:text-center all:mt-24 text-xl text-white mb-2 lg:float-right ">
             <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600  mx-1 inline-block pt-2 p-2 ">
               <FaFacebook />{" "}
             </li>
