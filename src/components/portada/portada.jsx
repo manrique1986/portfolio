@@ -1,17 +1,15 @@
 import React from "react";
 import imgPortada from "../../assets/Diseño sin título (3).png";
 import { Link } from "react-router-dom";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTwitter,
-  FaYoutube,
-  FaLocationArrow,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { AiOutlineArrowDown } from "react-icons/ai";
+import {
+  AiOutlineArrowDown,
+  AiOutlineLinkedin,
+  AiOutlineGithub,
+} from "react-icons/ai";
 
 AOS.init();
 
@@ -66,10 +64,10 @@ const portada = () => {
               <FaInstagram />
             </li>
             <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
-              <FaTwitter />
+              <AiOutlineLinkedin />
             </li>
             <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
-              <FaYoutube />
+              <AiOutlineGithub />
             </li>
           </div>
         </div>
