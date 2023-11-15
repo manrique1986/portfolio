@@ -32,9 +32,9 @@ const index = () => {
               </div>
               <div className="">
                 <h1 className=" text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16  lg:text-[35px]">
-                 Educacion it Febreso 2023 - Mayo 2023
+                 Educacion it Febrero 2023 - Mayo 2023
                 </h1>
-                <h3 className="font-bold pt-4 "> Realice el curso de React, luego inicie con Node Js</h3>
+                <h3 className="font-bold pt-4 "> Realice el curso de React y posteriormente comencé a explorar Node.js.</h3>
                 {/* <ul className="lg:pt-6">
                   <li>React <span className="text-orange-700">Febrero de 2023</span></li>
                 

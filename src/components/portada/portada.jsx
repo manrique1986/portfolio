@@ -24,13 +24,13 @@ const portada = () => {
     setTimeout(() => {
       setLoading(false);
       navigate("/sobremi");
-    }, 6000);
+    }, 4000);
   };
 
   return (
     <>
       {loading ? (
-        <Loading />
+        <Loading  />
       ) : (
         <div className="flex flex-col bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top  w-screen h-screen ">
           <div>
