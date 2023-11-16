@@ -5,6 +5,7 @@ import Educacion from "./components/educacion/index"
 import Skills from "./components/skills/skills";
 import Proyectos from "./components/proyectos/proyectos";
 import Loading from "./components/loading/loading";
+import Contacto from "./components/contacto/contacto";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/skills" element={<Skills/>} />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/loading" element={<Loading />} />
+          <Route path="/contacto" element={<Contacto />} />
 
         </Routes>
       </BrowserRouter>

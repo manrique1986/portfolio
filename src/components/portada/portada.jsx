@@ -24,7 +24,7 @@ const portada = () => {
     setTimeout(() => {
       setLoading(false);
       navigate("/sobremi");
-    }, 4000);
+    }, 2000);
   };
 
   return (

@@ -24,7 +24,7 @@ const Dashboard = ({  }) => {
     { name: "", link: "/sobremi", icon: PiNumberCircleThreeLight},
     { name: "", link: "/skills", icon: PiNumberCircleFourLight},
     { name: "", link: "/proyectos", icon: PiNumberCircleFiveLight },
-    { name: "", link: "/", icon: PiNumberCircleSixLight},
+    { name: "", link: "/contacto", icon: PiNumberCircleSixLight},
    
   ];
 
@@ -34,7 +34,7 @@ const Dashboard = ({  }) => {
   return (
     <section className=" flex  ">
        <button
-        className="fixed  z-40 opacity-70 lg:hidden z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
+        className="fixed  z-40 opacity-70  z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
         onClick={toggleSidebar}
       >
         <span class="text-white">
