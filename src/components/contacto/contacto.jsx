@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="min-h-screen flex items-center justify-center ">
          
           <div className="lg:w-5/12 all:w-4/5  lg:p-8 all:p-2 rounded-md shadow-md">
-          <h3 className="text-[#EB3A00] font-semibold lg:text-[35px] mb-6">Leandro Martini</h3>
+          <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16 font-semibold lg:text-[35px] mb-6">Leandro Martini</h3>
            
 
             <div className="flex items-center mb-6">
