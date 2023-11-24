@@ -29,7 +29,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Html
                     </p>
                   </div>
@@ -41,7 +41,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Css
                     </p>
                   </div>
@@ -53,7 +53,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Javascript
                     </p>
                   </div>
@@ -65,7 +65,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       React
                     </p>
                   </div>
@@ -77,7 +77,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Vue
                     </p>
                   </div>
@@ -92,7 +92,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Node Js
                     </p>
                   </div>
@@ -106,7 +106,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Bootrstrap
                     </p>
                   </div>
@@ -120,7 +120,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Tailwind
                     </p>
                   </div>
@@ -132,7 +132,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Mongo DB
                     </p>
                   </div>
@@ -144,7 +144,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                      Git
                     </p>
                   </div>
@@ -156,7 +156,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Github
                     </p>
                   </div>
@@ -168,7 +168,7 @@ const skills = () => {
                         alt="html"
                       />
                     </span>
-                    <p class="text-2xl font-extrabold text-dark-grey-900">
+                    <p class="text-lg font-extrabold text-dark-grey-900">
                       Postman
                     </p>
                   </div>
