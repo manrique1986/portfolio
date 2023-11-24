@@ -1,23 +1,58 @@
-import React from "react";
+import React, { useRef } from "react";
 import Layout from "../layout";
+import emailjs from "@emailjs/browser";
+import { useNavigate } from "react-router-dom";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
+import {  useState } from "react";
+import PropagateLoader from "react-spinners/PropagateLoader";
 
 const Contact = () => {
-  const handleFormSubmit = (e) => {
+
+  const [loading, setLoading] = useState(false);
+
+  const navigate = useNavigate();
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    // Aquí puedes agregar la lógica para enviar el formulario, como usar un servicio de envío de correos.
-    // Por ahora, simplemente mostraremos un mensaje de éxito.
-    alert("¡Correo enviado con éxito!");
+
+    emailjs
+      .sendForm(
+        "service_tg9orsi",
+        "template_09y1r5d",
+        form.current,
+        "qhEGotbMgonBcwPrk"
+      )
+      .then(
+        (result) => {
+          setLoading(true);
+          setTimeout(() => {
+            setLoading(false);
+            navigate("/contacto");
+          }, 3000);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+       
+      );
   };
 
   return (
     <Layout>
+
+      {loading ? (
+          <div className="w-screen h-screen  flex items-center justify-center bg-img-contacto">
+            <p className="  text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16 font-semibold lg:text-[35px] mb-6">Correo enviado con exito...</p>
+        
+          </div>
+        ) : (
       <div className="bg-img-proyectos bg-cover w-screen h-screen  bg-top">
         <div className="min-h-screen flex items-center justify-center ">
-         
           <div className="lg:w-5/12 all:w-4/5  lg:p-8 all:p-2 rounded-md shadow-md">
-          <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16 font-semibold lg:text-[35px] mb-6">Leandro Martini</h3>
-           
+            <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:mt-16 font-semibold lg:text-[35px] mb-6">
+              Leandro Martini
+            </h3>
 
             <div className="flex items-center mb-6">
               <FaEnvelope className="text-2xl mr-4" />
@@ -29,7 +64,7 @@ const Contact = () => {
               <p>(11) 3037-4277</p>
             </div>
 
-            <form onSubmit={handleFormSubmit}>
+            <form ref={form} onSubmit={sendEmail}>
               <div className="mb-4">
                 <label
                   htmlFor="name"
@@ -40,7 +75,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  name="name"
+                  name="user_name"
                   className="w-full p-2 border rounded-md"
                   required
                 />
@@ -56,7 +91,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="user_email"
                   className="w-full p-2 border rounded-md"
                   required
                 />
@@ -88,7 +123,9 @@ const Contact = () => {
           </div>
         </div>
       </div>
+     ) }
     </Layout>
+    
   );
 };
 
