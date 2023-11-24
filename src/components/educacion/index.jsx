@@ -6,7 +6,7 @@ const index = () => {
     <div>
       <Layout>
         <div className="flex flex-col">
-          <div className=" bg-img-educacion bg-cover lg:h-full w-screen h-screen  ">
+          <div className=" bg-img-educacion bg-cover  w-screen h-screen  ">
             <div className="  lg:ml-64 all:mt-2    lg:mt-14 bg-[#F7B200]  ml-10 w-56 lg:h-[60px] lg:w-[275.8px] lg:pt-2  rounded-xl ">
               <h1 className="justify-center items-center all:text-[30px]   font-bold text-center text-[#EB3A00]">
                 Educacion
@@ -15,7 +15,7 @@ const index = () => {
             <div className="lg:ml-96 all:mt-28 lg:mt-4 justify-center all:px-11">
               {/* Coderhouse */}
               <div className="mb-6">
-                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl font-semibold lg:text-[35px]">
+                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl xl:text-4xl font-semibold lg:text-[35px]">
                   Coderhouse (Junio 2021 - Marzo 2022)
                 </h3>
                 <p className="font-extrabold mt-4">
@@ -31,7 +31,7 @@ const index = () => {
 
               {/* Educacion IT */}
               <div className="mb-6">
-                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl  font-semibold lg:text-[35px]">
+                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl xl:text-4xl  font-semibold lg:text-[35px]">
                   Educacion IT (Febrero 2023 - Mayo 2023)
                 </h3>
                 <ul className="list-inside list-disc pl-6 mb-2 font-bold pt-4">
@@ -42,7 +42,7 @@ const index = () => {
 
               {/* Udemy */}
               <div>
-                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl  font-semibold lg:text-[35px]">
+                <h3 className="text-[#EB3A00] all:text-2xl all:mt-8 lg:text-xl xl:text-4xl  font-semibold lg:text-[35px]">
                   Udemy (Agosto 2023 - Actualidad)
                 </h3>
                 <ul className="list-inside list-disc pl-6 mb-2 font-bold pt-4">
