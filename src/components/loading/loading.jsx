@@ -9,7 +9,7 @@ const loading = () => {
 
 
   return (
-    <div >
+    <div className=" all:ml-48" >
       <l-quantum  size="90"  speed="1.75"  color="#EB3A00"></l-quantum>
     </div>
   );
