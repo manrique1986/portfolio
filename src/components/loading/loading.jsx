@@ -9,7 +9,7 @@ const loading = () => {
 
 
   return (
-    <div className=" all:ml-48" >
+    <div className=" w-screen h-screen  flex items-center justify-center " >
       <l-quantum  size="90"  speed="1.75"  color="#EB3A00"></l-quantum>
     </div>
   );
