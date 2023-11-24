@@ -65,7 +65,7 @@ const Dashboard = ({  }) => {
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col gap-1 lg:pl-20   mt-12">
+        <div className="relative flex flex-col  lg:pl-20   mt-12">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
