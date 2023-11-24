@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = ({  }) => {
 
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
   const toggleSidebar = () => {
     setOpen(!open);
   };
@@ -22,9 +22,9 @@ const Dashboard = ({  }) => {
     { name: "", link: "/portada", icon: PiNumberCircleOneLight },
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
     { name: "", link: "/sobremi", icon: PiNumberCircleThreeLight},
-    { name: "", link: "/money", icon: PiNumberCircleFourLight},
-    { name: "", link: "/", icon: PiNumberCircleFiveLight },
-    { name: "", link: "/", icon: PiNumberCircleSixLight},
+    { name: "", link: "/skills", icon: PiNumberCircleFourLight},
+    { name: "", link: "/proyectos", icon: PiNumberCircleFiveLight },
+    { name: "", link: "/contacto", icon: PiNumberCircleSixLight},
    
   ];
 
@@ -32,9 +32,9 @@ const Dashboard = ({  }) => {
 
  
   return (
-    <section className="relative flex border- ">
+    <section className=" flex  ">
        <button
-        className="fixed opacity-70 lg:hidden z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
+        className="fixed  z-40 opacity-70  z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
         onClick={toggleSidebar}
       >
         <span class="text-white">
@@ -53,24 +53,27 @@ const Dashboard = ({  }) => {
       </button>
       <div
         onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen   ${
+        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50 z-40 ${
           open ? "block" : "hidden"
-        }  `}
+        } `}
       ></div>
       <div
-        className={`absolute min-h-screen  ${
-          open ? "lg:w-[260px] all:w-36 bg-[#2E2E2E] opacity-90    " : " invisible"
+      
+        className={` min-h-screen fixed z-40
+        bg-scroll  ${
+          open ? "lg:w-[260px] all:w-36 fixed bg-[#2E2E2E] opacity-90    " : " invisible"
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col gap-1 lg:pl-20   mt-12">
+        <div className="relative flex flex-col  lg:pl-20    mt-12">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
               key={i}
+              
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-4 transition duration-150 ease-in-out  rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium pt-12 lg:pt-2 all:pl-8 py-6    rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500      ${

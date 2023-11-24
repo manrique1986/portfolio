@@ -10,10 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "ldrs": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-router-dom": "^6.17.0"
+    "react-loader-spinner": "^5.4.5",
+    "react-router-dom": "^6.17.0",
+    "react-spinners": "^0.13.8"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -26,6 +32,7 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
+    "tailwindcss-animated": "^1.0.1",
     "vite": "^4.4.5"
   }
 }
