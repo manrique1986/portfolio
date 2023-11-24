@@ -73,7 +73,7 @@ const Dashboard = ({  }) => {
               
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-8 t   rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium lg:pt-12 all:pl-8 py-6    rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500      ${
