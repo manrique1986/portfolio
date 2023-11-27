@@ -74,19 +74,27 @@ const portada = () => {
               </div>
 
               <div className="all:text-center all:mt-24 text-xl text-white mb-2  ">
-                <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600  mx-1 inline-block pt-2 p-2 ">
+                <Link to={"https://www.facebook.com/leandro.martini.5?mibextid=ZbWKwL" } target="_blank">
+                <li className="text-white cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600  mx-1 inline-block pt-2 p-2 ">
                   <FaFacebook />{" "}
                 </li>
-                <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+                </Link>
+                <Link to={"https://instagram.com/leandromartini86?utm_source=qr&igshid=OWM2ZWI5NDFkNA=="} target="_blank">
+                <li className="text-white cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
                   {" "}
                   <FaInstagram />
                 </li>
-                <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+                </Link>
+                <Link to={"https://www.linkedin.com/in/leandro-martini-developer/"} target="_blank">
+                <li className="text-white cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
                   <AiOutlineLinkedin />
                 </li>
-                <li className=" cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
+                </Link>
+                <Link to={"https://github.com/manrique1986"} target="_blank">
+                <li className=" text-white cursor-pointer w-10 h-10 rounded-full bg-[#EC6625] hover:bg-yellow-600 mx-1 inline-block pt-2 p-2 ">
                   <AiOutlineGithub />
                 </li>
+                </Link>
               </div>
             </div>
           </div>

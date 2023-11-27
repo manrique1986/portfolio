@@ -46,12 +46,12 @@ const Contact = () => {
         </div>
       ) : (
         <div className="bg-img-proyectos bg-cover w-screen h-screen  bg-top">
-          <div>
-            <FaWhatsapp />
-          </div>
           <div className="min-h-screen flex items-center justify-center ">
             <div className="lg:w-5/12 all:w-4/5  lg:p-8 all:p-2 rounded-md shadow-md">
-              <Link to={"https://api.whatsapp.com/send?phone=+5441130374277" }target="_blank">
+              <Link
+                to={"https://api.whatsapp.com/send?phone=+5441130374277"}
+                target="_blank"
+              >
                 <div className="float-right  ">
                   <FaWhatsapp className="w-[45px] h-[45px] p-2 hover:cursor-pointer hover:text-[#0df053] hover:bg-white bg-[#0df053] text-white rounded-[50px]" />
                 </div>
