@@ -16,7 +16,7 @@ const sobreMi = () => {
               Biografia e introduccion
             </h2>
             <div className="all:p-6 all:pl-14">
-              <p className="lg:px-72 text-[18px]">
+              <p className="lg:px-72 text-[18px] dark:text-black">
                 "¡Hola! Soy Leandro, un apasionado desarrollador fullstack con
                 enfoque en el frontend. Actualmente, trabajo en diversos
                 proyectos en plataformas variadas para perfeccionar mis
@@ -24,7 +24,7 @@ const sobreMi = () => {
                 Node.js en el backend. Utilizo herramientas como Bootstrap y
                 Tailwind para estilos impactantes.
               </p>
-              <p className="lg:px-72 text-[18px]">
+              <p className="lg:px-72 text-[18px] dark:text-black">
                 {" "}
                 Desde mi descubrimiento en el mundo IT, mantengo un constante
                 proceso de aprendizaje. Me defino como una persona responsable y

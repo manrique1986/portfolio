@@ -54,7 +54,7 @@ const portada = () => {
                 <p className="text-[#EC6625] all:text-center   font-bold text-[50px] lg:text-[80px]">
                   Leandro Martini
                 </p>
-                <h1 className="all:text-center lg:mt-8 lg:ml-10 all:text-[30px] text-[55px]">
+                <h1 className="all:text-center dark:text-black lg:mt-8 lg:ml-10 all:text-[30px] text-[55px]">
                   Programador Full-Stack
                 </h1>
               </div>
