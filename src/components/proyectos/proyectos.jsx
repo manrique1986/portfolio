@@ -13,7 +13,7 @@ const proyectos = () => {
             </h1>
           </div>
 
-          <section className="flex justify-center max-w-6xl  mx-auto px-4 sm:px-6 lg:px-4 py-8">
+          <section className="flex justify-center max-w-6xl  mx-auto px-4 sm:px-6 lg:px-16 py-8">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div
                 className="w-full bg-white rounded-lg sahdow-lg overflow-hidden border-2 shadow-md shadow-[#EB3A00]

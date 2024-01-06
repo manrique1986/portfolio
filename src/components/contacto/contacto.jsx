@@ -47,7 +47,7 @@ const Contact = () => {
       ) : (
         <div className="bg-img-proyectos bg-cover w-screen h-screen  bg-top">
           <div className="min-h-screen flex items-center justify-center ">
-            <div className="lg:w-5/12 all:w-4/5  lg:p-8 all:p-2 rounded-md shadow-md">
+            <div className="lg:w-5/12 all:w-4/5  xl:p-8 all:p-2 rounded-md shadow-md">
               <Link
                 to={"https://api.whatsapp.com/send?phone=+541130374277"}
                 target="_blank"
