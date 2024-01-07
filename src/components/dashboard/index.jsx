@@ -65,7 +65,7 @@ const Dashboard = ({  }) => {
         } duration-500 text-black-100`}
       >
 
-        <div className="relative flex flex-col    lg:pl-20     xl:mt-12">
+        <div className="relative flex flex-col    lg:pl-20      xl:mt-12">
           {menus?.map((menu, i) => (
             <Link
               to={menu?.link}
@@ -73,7 +73,7 @@ const Dashboard = ({  }) => {
               
               className={`  ${
                 menu?.margin && "  "
-              }  hover:text-[#EC6625] font-medium pt-12 lg:pt-8 all:pl-8 xl:py-6 xl:pt-12 all:pt-8  rounded-md text-[#FFFEFE]`}
+              }  hover:text-[#EC6625] font-medium pt-12 lg:pt-10 all:pl-8 xl:py-6 xl:pt-12 all:pt-14   rounded-md text-[#FFFEFE]`}
             >
               <div
                 className={`whitespace-pre duration-500      ${
