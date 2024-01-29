@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // import { HiMenuAlt3 } from "react-icons/hi";
 
 import { PiNumberCircleTwoLight,PiNumberCircleThreeLight,PiNumberCircleFourLight,PiNumberCircleFiveLight,PiNumberCircleSixLight} from "react-icons/pi";
@@ -18,6 +18,21 @@ const Dashboard = ({  }) => {
     setOpen(!open);
   };
 
+  useEffect(() => {
+    function handleResize() {
+      // Si la pantalla es más pequeña que 768px (tamaño típico de dispositivos móviles),
+      // se cierra automáticamente el sidebar al inicio y al navegar
+      setOpen(window.innerWidth >= 768);
+    }
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Manejar el tamaño de la ventana al inicio
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   const menus = [
     { name: "", link: "/portada", icon: PiNumberCircleOneLight },
     { name: "", link: "/educacion", icon: PiNumberCircleTwoLight },
@@ -34,7 +49,7 @@ const Dashboard = ({  }) => {
   return (
     <section className=" flex  ">
        <button
-        className="fixed  z-40 opacity-70  z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
+        className="fixed lg:hidden  z-40 opacity-70  z-90 bottom-10 right-8 bg-[#EB3A00] w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-[#F7B200 ]  duration-300"
         onClick={toggleSidebar}
       >
         <span class="text-white">
