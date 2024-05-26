@@ -67,10 +67,12 @@ const Dashboard = ({  }) => {
         </span>
       </button>
       <div
-        onClick={() => setOpen(false)}
-        className={`md:hidden fixed inset-0 max-h-screen  bg-black/50 z-40 ${
-          open ? "block" : "hidden"
-        } `}
+    className={`min-h-screen fixed z-40 bg-scroll ${
+      open
+        ? "lg:w-[260px] all:w-36 fixed bg-[#2E2E2E] opacity-90"
+        : "invisible"
+    } duration-500 text-black-100`}
+    
       ></div>
       <div
       

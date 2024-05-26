@@ -35,8 +35,7 @@ const portada = () => {
         <div className="flex flex-col bg-[url('https://res.cloudinary.com/dytpump6i/image/upload/v1697654019/fondoPortada_dfpeku.png')]  bg-top h-screen  w-screen ">
           <div className="">
             <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
+             
               className="float-right  "
             >
               <img className=" "
